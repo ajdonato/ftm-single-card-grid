@@ -1,0 +1,44 @@
+@media (max-width: 680px) {
+    body{
+        background-color: var(--light-gray);
+    }
+
+    .content .card{
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .content .card .card-footer .footer-price button{
+        width: 100%;
+    }
+
+    .attribution {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 580px) {
+    .content{
+        width: 100%;
+    }
+    .content .card .card-footer{
+        flex-direction: column;
+        padding-bottom: 12rem;
+    }
+
+    .content .card .card-footer .footer-price,
+    .content .card .card-footer .footer-list{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .content .card .card-footer .footer-list{
+        border-radius: 0 0 .8rem .8rem;
+    }
+
+    .attribution {
+        margin-top: 40rem;
+    }
+}
